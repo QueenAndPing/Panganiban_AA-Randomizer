@@ -1,0 +1,37 @@
+body{
+    background-image: url("photos/background.jpg");
+    background-size: cover;
+}
+.container{
+    background-color: #1c1c1c;
+    margin: 2.5%;
+    padding-bottom: 50px;
+    border-radius: 25px;
+}
+.container h1{
+    padding-top: 50px;
+    color: #ededed;
+    text-align: center;
+}
+.container h2{
+    color: #ededed;
+    text-align: center;
+}
+.container p{
+    color: #ededed;
+    text-align: center;
+}
+.card {
+    float: left;
+    width: 30.33%;
+    margin: 1.5%;
+}
+.container2:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card-header h3{
+    color: #1c1c1c;
+    text-align: center;
+}
